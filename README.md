@@ -7,7 +7,7 @@ The chatbot was made using IBM Watson Assistance and IBM Watson Discovery. Dialo
 Assistance and query were connected using a webhook. Prototyping was done on Node-Red. Assistance was finally integrated with facebook messenger.
 
 ## Content
-Here a node-red-flow.json file has been shared for reference purposes.
+Here a node-red-flow.json and a project report have been shared for reference purposes.
 
 ## Technologies used
 1. IBM Watson
