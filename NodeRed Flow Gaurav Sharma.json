@@ -1,0 +1,314 @@
+[
+    {
+        "id": "48d9e212.40d67c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e359ff8c.ebe95",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Hospital Assistance",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c3e962e1.32a56",
+        "type": "ui_group",
+        "z": "",
+        "name": "Message",
+        "tab": "e359ff8c.ebe95",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false
+    },
+    {
+        "id": "79da06b3.5b3d58",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "564bfd89.8e98b4",
+        "type": "ui_group",
+        "z": "",
+        "name": "",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "7ef23fc2.d5f6",
+        "type": "ui_group",
+        "z": "",
+        "name": "Reply",
+        "tab": "e359ff8c.ebe95",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "8e5fd2ea.ff76f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "c3e962e1.32a56",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "624c342b.103ddc",
+        "type": "watson-assistant-v2",
+        "z": "48d9e212.40d67c",
+        "name": "",
+        "service-endpoint": "https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/f277f858-0b0d-40e7-8c86-ad4affec97a5",
+        "assistant_id": "1208a25c-c7bb-42d2-807d-94d4721092f5",
+        "debug": false,
+        "restart": false,
+        "return_context": true,
+        "alternate_intents": false,
+        "multisession": true,
+        "timeout": "",
+        "optout-learning": false,
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "b0a58d5c.44fba",
+                "1e103e0a.dfb4b2"
+            ]
+        ]
+    },
+    {
+        "id": "b0a58d5c.44fba",
+        "type": "function",
+        "z": "48d9e212.40d67c",
+        "name": "parsing",
+        "func": "msg.payload=msg.payload.output.generic[0].text;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 720,
+        "y": 200,
+        "wires": [
+            [
+                "51a43824.1531d8"
+            ]
+        ]
+    },
+    {
+        "id": "f22eaaa6.7e4a08",
+        "type": "function",
+        "z": "48d9e212.40d67c",
+        "name": "DashboardParser",
+        "func": "msg.payload=msg.payload.text\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "f0b2fe44.c5a9d",
+                "624c342b.103ddc"
+            ]
+        ]
+    },
+    {
+        "id": "82959e42.bc24d",
+        "type": "ui_form",
+        "z": "48d9e212.40d67c",
+        "name": "",
+        "label": "",
+        "group": "c3e962e1.32a56",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "options": [
+            {
+                "label": "Enter your message",
+                "value": "text",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "text": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "clear",
+        "topic": "",
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "f22eaaa6.7e4a08"
+            ]
+        ]
+    },
+    {
+        "id": "f0b2fe44.c5a9d",
+        "type": "ui_text",
+        "z": "48d9e212.40d67c",
+        "group": "c3e962e1.32a56",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "YOU:   ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 410,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "51a43824.1531d8",
+        "type": "ui_text",
+        "z": "48d9e212.40d67c",
+        "group": "7ef23fc2.d5f6",
+        "order": 2,
+        "width": "11",
+        "height": "10",
+        "name": "",
+        "label": "BOT:   ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 950,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "efabcf63.f38f7",
+        "type": "inject",
+        "z": "48d9e212.40d67c",
+        "name": "",
+        "topic": "",
+        "payload": "How to maintain hygiene ?",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "624c342b.103ddc"
+            ]
+        ]
+    },
+    {
+        "id": "1e103e0a.dfb4b2",
+        "type": "debug",
+        "z": "48d9e212.40d67c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 880,
+        "y": 120,
+        "wires": []
+    }
+]
