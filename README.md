@@ -6,6 +6,9 @@ This project was made for my internship at SmartBridge.
 The chatbot was made using IBM Watson Assistance and IBM Watson Discovery. Dialogues were designed for assistance and discovery was fed a government issued document detailing the guidelines for Covid-19 pandemic.
 Assistance and query were connected using a webhook. Prototyping was done on Node-Red. Assistance was finally integrated with facebook messenger.
 
+## Content
+Here a node-red-flow.json file has been shared for reference purposes.
+
 ## Technologies used
 1. IBM Watson
 2. Node-Red
