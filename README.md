@@ -9,7 +9,7 @@ Assistance and query were connected using a webhook. Prototyping was done on Nod
 ## Technologies used
 1. IBM Watson
 2. Node-Red
-3. Node-js
+3. node.js
 
 ## Link to facebook page for chatbot
 https://www.facebook.com/Covid-Info-Bot-102663594784736
