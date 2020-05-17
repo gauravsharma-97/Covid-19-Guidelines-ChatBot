@@ -1,0 +1,708 @@
+{
+  "intents": [
+    {
+      "intent": "Covid_Protecting_Against_Infection",
+      "examples": [
+        {
+          "text": "Do I need to wear a face mask?"
+        },
+        {
+          "text": "what should i do to contain the spread of the virus"
+        },
+        {
+          "text": "prevent the spread of the virus"
+        },
+        {
+          "text": "How can I protect my family from the spread of coronavirus?"
+        },
+        {
+          "text": "What is the risk of my child becoming sick with COVID-19?"
+        },
+        {
+          "text": "Is it even possible to avoid the virus?"
+        },
+        {
+          "text": "What’s the best way to prevent coronavirus?"
+        },
+        {
+          "text": "How to Prevent the Spread of the Virus"
+        },
+        {
+          "text": "How do I protect myself?"
+        },
+        {
+          "text": "How do I prevent myself from getting sick?"
+        },
+        {
+          "text": "How often should I wash my hands?"
+        },
+        {
+          "text": "how do I ensure my family is safe?"
+        },
+        {
+          "text": "How do I avoid covid-19?"
+        }
+      ],
+      "description": "How to prevent infection."
+    },
+    {
+      "intent": "Query",
+      "examples": [
+        {
+          "text": "What is BMW ?"
+        },
+        {
+          "text": "what is PPE ?"
+        },
+        {
+          "text": "Guidelines for corona by government"
+        },
+        {
+          "text": "precautions"
+        },
+        {
+          "text": "What are the guidelines for covid ?"
+        },
+        {
+          "text": "Tell about guidelines for corona issued by government ?"
+        },
+        {
+          "text": "What are the government guidelines ?"
+        }
+      ],
+      "description": "Question about anything"
+    },
+    {
+      "intent": "Covid_Description",
+      "examples": [
+        {
+          "text": "What is covid19 ?"
+        },
+        {
+          "text": "what is the coronavirus?"
+        },
+        {
+          "text": "what is novel coronavirus?"
+        },
+        {
+          "text": "What is COVID-19?"
+        },
+        {
+          "text": "Is the coronavirus the same as SARS?"
+        },
+        {
+          "text": "Is the coronavirus the same as MERS?"
+        },
+        {
+          "text": "Is the coronavirus the same as a cold?"
+        },
+        {
+          "text": "Has the cause of COVID-19 been identified?"
+        },
+        {
+          "text": "what is corona ?"
+        },
+        {
+          "text": "Define corona"
+        },
+        {
+          "text": "Where did the coronavirus come from?"
+        }
+      ],
+      "description": "Overview of Covid 19."
+    },
+    {
+      "intent": "Hospital_functions_normal",
+      "examples": [
+        {
+          "text": "Please make an appointment"
+        },
+        {
+          "text": "Is there OPD ?"
+        },
+        {
+          "text": "Can normal patients come to hospital ?"
+        },
+        {
+          "text": "Is the hospital open?"
+        },
+        {
+          "text": "Are all the doctors available ?"
+        },
+        {
+          "text": "Can I have an appointment"
+        }
+      ],
+      "description": "About hospital"
+    },
+    {
+      "intent": "Greeting",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Whaddup"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "Whats up"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Covid_Cleaning_Disinfecting",
+      "examples": [
+        {
+          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
+        },
+        {
+          "text": "Should I spray myself or my kids with disinfectant?"
+        },
+        {
+          "text": "What cleaning methods kill the coronavirus?"
+        },
+        {
+          "text": "Whats the difference between cleaning and disinfecting?"
+        },
+        {
+          "text": "how do i get rid of germs at my home"
+        },
+        {
+          "text": "How do I clean my home properly?"
+        },
+        {
+          "text": "Does alcohol kill the coronavirus?"
+        },
+        {
+          "text": "Do I need lysol wipes?"
+        },
+        {
+          "text": "Do I have to use bleach to kill coronavirus?"
+        },
+        {
+          "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
+        },
+        {
+          "text": "All the stores are out of disinfecting wipes, what do I do?"
+        }
+      ],
+      "description": "How to clean and disinfect."
+    },
+    {
+      "intent": "Covid_Symptoms",
+      "examples": [
+        {
+          "text": "I think I might have the virus."
+        },
+        {
+          "text": "What are the symptoms of corona ?"
+        },
+        {
+          "text": "should I get tested if I have a cough?"
+        },
+        {
+          "text": "should i get tested"
+        },
+        {
+          "text": "I traveled to Italy recently. What do I do?"
+        },
+        {
+          "text": "I think I'm infected"
+        },
+        {
+          "text": "I have travled recently. What do I do?"
+        },
+        {
+          "text": "How do i know if I'm sick"
+        },
+        {
+          "text": "Do I need to get tested?"
+        },
+        {
+          "text": "am i sick"
+        },
+        {
+          "text": "What are symptoms?"
+        }
+      ],
+      "description": "Symptoms related to Covid 19."
+    },
+    {
+      "intent": "hospital_functions_corona",
+      "examples": [
+        {
+          "text": "Do you provide quarantine facilities ?"
+        },
+        {
+          "text": "Can you please share your helpline number ?"
+        },
+        {
+          "text": "Are you treating covid ?"
+        },
+        {
+          "text": "What is your emergency number ?"
+        },
+        {
+          "text": "Tell your covid helpline contact"
+        },
+        {
+          "text": "Can corona patients come to you ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ending",
+      "examples": [
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's all"
+        },
+        {
+          "text": "Thank you !"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Definition",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Define",
+          "synonyms": [
+            "Tell about",
+            "Explain",
+            "clarify",
+            "describe",
+            "tell",
+            "defined",
+            "explanation",
+            "specify"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "corona",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "corona",
+          "synonyms": [
+            "covid",
+            "covid-19",
+            "coronavirus",
+            "coronaviruses"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "Right",
+            "yeah",
+            "yep"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "End",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Thank You",
+          "synonyms": [
+            "Gracias",
+            "Thanks",
+            "Ok",
+            "thank",
+            "thankyou",
+            "okay",
+            "appreciate",
+            "yeah",
+            "thanx",
+            "yep",
+            "yup",
+            "thx"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Procedure",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Procedure",
+          "synonyms": [
+            "Guidelines",
+            "guideline",
+            "guidance",
+            "standards",
+            "guidlines",
+            "norms",
+            "advice",
+            "What to do ",
+            "Steps"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "No",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dont",
+          "synonyms": [
+            "Don't"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "Not right",
+            "nothing",
+            "not",
+            "never",
+            "none",
+            "neither",
+            "wrong"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/gn9787%40srmist.edu.in_dev/default/dicovery_assist.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Congrats ! You are safe. :) \nBut we request you to follow the lockdown norms and social distancing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1589034959493",
+      "conditions": "@No",
+      "dialog_node": "node_4_1589208582219",
+      "previous_sibling": "node_6_1589208314459"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please immediately quarantine yourself and contact us on 011-XXXXXXXX."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1589034959493",
+      "conditions": "@Yes",
+      "dialog_node": "node_6_1589208314459"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry but I could not understand you! :("
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1589015606187",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1589016821999",
+      "previous_sibling": "response_2_1589016818910"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $webhook_result_1.passages[0].passage_text  ?><br> <? $webhook_result_1.passages[1].passage_text ?> <br> <? $webhook_result_1.passages[2].passage_text ?><br> <? $webhook_result_1.passages[3].passage_text ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1589015606187",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_2_1589016818910"
+    },
+    {
+      "type": "standard",
+      "title": "Hospital serving in lockdown ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, our hospital is currently serving as a quarantine centre under the government's directions. Therefore OPDs and non-emergency surgeries have been suspended until further notice."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Hospital_functions_normal",
+      "dialog_node": "node_4_1589032623197",
+      "previous_sibling": "node_7_1589034805809"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1589139131580",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "What is covid ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.\nMost people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.\nHowever quarantine is necessary for anyone suspected of infection."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Covid_Description && @corona",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1589034805809",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "asking",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<? input.text ?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Query || #Covid_Cleaning_Disinfecting || #Covid_Protecting_Against_Infection",
+      "dialog_node": "node_9_1589015606187",
+      "previous_sibling": "node_2_1589034959493"
+    },
+    {
+      "type": "standard",
+      "title": "Covid_Symptoms",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The symptoms for Covid-19 are given below:\n\n----Most common symptoms----\n1.fever\n2.dry cough\n3.tiredness\n----Less common symptoms----\n1.aches and pains\n2.sore throat\n3.diarrhoea\n4.conjunctivitis\n5.headache\n6.loss of taste or smell\n7.a rash on skin, or discolouration of fingers or toes\n----Serious symptoms----\n1.difficulty breathing or shortness of breath\n2.chest pain or pressure\n3.loss of speech or movement\n\nAre you experiencing any of these symptoms ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Covid_Symptoms && @corona",
+      "dialog_node": "node_2_1589034959493",
+      "previous_sibling": "node_2_1589033359089"
+    },
+    {
+      "type": "standard",
+      "title": "Covid-19 facilities in hospital",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In these stressful times, we are proud to say that we are fighting against the coronavirus pandemic. As per the government orders, we are providing quarantine facilities. \nIn case of emergency, please contact us on 011-XXXX-XXXX.\nFor any information about coronavirus guidelines, you can ask us here ? :) "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hospital_functions_corona && @corona",
+      "dialog_node": "node_2_1589033359089",
+      "previous_sibling": "node_4_1589032623197"
+    },
+    {
+      "type": "standard",
+      "title": "End",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad I could be of assistance :)"
+              },
+              {
+                "text": "Happy I could help :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1589139131580",
+      "previous_sibling": "node_9_1589015606187"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              },
+              {
+                "text": "Hi! How can I be of assistance to you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Greeting",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "covid_1",
+  "language": "en",
+  "description": ""
+}
